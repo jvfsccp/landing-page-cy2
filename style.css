@@ -113,3 +113,98 @@ nav ul li a:hover {
   color: #F9F9F9;
   text-decoration: none;
 }
+
+main {
+  background-color: #161616;
+}
+#about-us {
+  display: flex;
+  height: 900px;
+}
+
+.text-about {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+
+  margin-top: -590px;
+  margin-left: 30px;
+}
+
+#about-us .text-about h2 {
+  font-size: 30px;
+  color: #FFF;
+  text-transform: uppercase;
+  width: 200px;
+  height: 60px;
+}
+
+.about-brand {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-right: 110px;
+}
+
+.img-about {
+  margin-bottom: 40px;
+  margin-right: 30px;
+  margin-top: 120px;
+}
+
+.brands-about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-brand .brands-about .text-main {
+  width: 550px;
+  height: 280px;
+  margin-bottom: 30px;
+  align-items: center;
+  margin-left: 90px;
+}
+
+.about-brand .brands-about .text-main h2 {
+  font-size: 60px;
+  text-transform: uppercase;
+  color: #FFF;
+
+  font-weight: 800;
+}
+.about-brand .brands-about .text-main span {
+  font-size: 60px;
+  text-transform: uppercase;
+  color: #FFF;
+  font-weight: 800;
+  margin-left: 105px;
+}
+
+.about-brand .brands-about .text-paragraph {
+  width: 40%;
+  margin-top: 20px;
+}
+
+.about-brand .brands-about .text-paragraph p {
+  color: #FFF;
+  font-weight: 500;
+}
+#button-about {
+  width: 150px;
+  padding: 20px;
+  margin-top: 70px;
+  border: none;
+  border-radius: 40px;
+  background-color: #30FF45;
+}
+
+#button-about a {
+  color: #000;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 18px;
+}
+
