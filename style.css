@@ -3,9 +3,12 @@
   margin: 0;
   box-sizing: border-box;
 }
-
+html {
+  scroll-behavior: smooth;
+}
 body {
   font-family: 'Poppins', sans-serif;
+  background-color: #F3F3F3;
 }
 
 #home {
@@ -116,6 +119,7 @@ nav ul li a:hover {
 
 main {
   background-color: #161616;
+  width: 100%;
 }
 #about-us {
   display: flex;
@@ -127,7 +131,7 @@ main {
   align-items: center;
   justify-content: start;
 
-  margin-top: -590px;
+  margin-top: -800px;
   margin-left: 30px;
 }
 
@@ -158,6 +162,8 @@ main {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+
+  margin-right: 150px;
 }
 
 .about-brand .brands-about .text-main {
@@ -199,6 +205,12 @@ main {
   border: none;
   border-radius: 40px;
   background-color: #30FF45;
+  transition: ease 0.3s all;
+  cursor: pointer;
+}
+
+#button-about:hover {
+  transform: scale(1.1);
 }
 
 #button-about a {
@@ -208,3 +220,157 @@ main {
   font-size: 18px;
 }
 
+
+#featured {
+  display: flex;
+  height: 900px;
+}
+
+.text-featured {
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  color: #FFF;
+  margin-top: -700px;
+  margin-left: 30px;
+}
+
+.featured-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+
+  margin-left: 160px;
+}
+
+.brands-featured {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.brands-featured .img-featured {
+  margin-bottom: 20px;
+  margin-right: 40px;
+}
+
+ .featured-container .text-main {
+  width: 800px;
+  height: 300px;
+  margin-bottom: 30px;
+  align-items: center;
+  margin-left: 90px;
+}
+
+.featured-container .text-main h2 {
+  font-size: 60px;
+  text-transform: uppercase;
+  color: #FFF;
+  margin-left: 40px;
+  font-weight: 800;
+}
+
+.featured-container .text-main span {
+  font-size: 60px;
+  text-transform: uppercase;
+  color: #FFF;
+  font-weight: 800;
+  margin-left: 105px;
+}
+
+#world {
+  margin-left: 210px;
+}
+
+
+
+.paragraph-featured p {
+  color: #FFF;
+}
+
+#btn-featured {
+  margin-top: 80px;
+  width: 180px;
+  padding: 20px;
+  border-radius: 40px;
+  border: none;
+  transition: ease 0.3s all;
+  cursor: pointer;
+  background-color: #2EF843;
+}
+
+#btn-featured:hover {
+  transform: scale(1.1);
+}
+
+#btn-featured a {
+  color: #000;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+footer {
+  background-color: #F3F3F3;
+  height: 200px; /* Altura fixa */
+  max-height: 200px; /* Altura máxima */
+  overflow: hidden; /* Garante que o conteúdo extra seja cortado */
+  padding: 20px; /* Espaçamento interno */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+#faq {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  gap: 5px;
+}
+.left img {
+  margin-top: 45px;
+  width: 150px;
+}
+.credits {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-right: 80px;
+}
+
+.icons {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  justify-content: end;
+  margin-top: 80px;
+  margin-bottom: 65px;
+  gap: 10px;
+}
+
+.icons a  {
+  text-decoration: none;
+}
+
+.icons a i {
+  color: #000;
+  font-size: 25px;
+  transition: ease 0.5s all;
+}
+
+.icons a i:hover {
+  background-color: #2EF843;
+  border-radius: 50%;
+  padding: 10px;
+  color: #FFF;
+  transform: scale(1.1);
+}
